@@ -24,10 +24,10 @@ WebUI.click(findTestObject('Object Repository/addToCart_OR/Page_Shop Online in K
 WebUI.click(findTestObject('Object Repository/addToCart_OR/Page_Shop Online in Kenya - Pay Con/button_Go to Checkout'))
 
 WebUI.setText(findTestObject('Object Repository/addToCart_OR/Page_Shop Online in Kenya - Pay Con/input_Email Address_username'), 
-    'mbitiem@yahoo.com')
+    Email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/addToCart_OR/Page_Shop Online in Kenya - Pay Con/input_Password_password'), 
-    '8guqDZyDLVMAP+uswE/FBQ==')
+    Password)
 
 WebUI.click(findTestObject('Object Repository/addToCart_OR/Page_Shop Online in Kenya - Pay Con/span_Sign In'))
 

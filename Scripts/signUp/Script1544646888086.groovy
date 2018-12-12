@@ -20,22 +20,22 @@ WebUI.navigateToUrl('https://www.masoko.com/')
 WebUI.click(findTestObject('Object Repository/signUp_OR/Page_Shop Online in Kenya - Pay Con/span_Register'))
 
 WebUI.setText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_Personal Information_fir'), 
-    'John')
+    Fname)
 
 WebUI.setText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_Personal Information_las'), 
-    'Doe')
+    Lname)
 
 WebUI.setText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_land Islands_mobile'), 
-    '+254725214857')
+    'Phone')
 
 WebUI.setText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_Sign-in Information_emai'), 
-    'mail6@mail.com')
+    Email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_Sign-in Information_pass'), 
-    '8guqDZyDLVMAP+uswE/FBQ==')
+    Password)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/input_Strong_password_confirma'), 
-    '8guqDZyDLVMAP+uswE/FBQ==')
+    PasswordConf)
 
 WebUI.click(findTestObject('Object Repository/signUp_OR/Page_Create New Customer Account/div_Create New Customer Accoun'))
 

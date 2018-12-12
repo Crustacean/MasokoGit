@@ -17,10 +17,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.masoko.com/')
 
-WebUI.setText(findTestObject('Object Repository/signIn_OR/Page_Customer Login/input_If you have an account s'), 'mbitiem@yahoo.com')
+WebUI.setText(findTestObject('Object Repository/signIn_OR/Page_Customer Login/input_If you have an account s'), Email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/signIn_OR/Page_Customer Login/input_If you have an account s_27'), 
-    '8guqDZyDLVMAP+uswE/FBQ==')
+    Password)
 
 WebUI.click(findTestObject('Object Repository/signIn_OR/Page_Customer Login/span_Sign In'))
 
